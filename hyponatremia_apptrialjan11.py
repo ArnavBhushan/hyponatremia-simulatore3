@@ -18,7 +18,7 @@ if "visible_labs" not in st.session_state:
 # ===============================
 # IMAGE PATH CONFIGURATION
 # ===============================
-DESKTOP_PATH = "C:/Users/Arnav/Desktop/" 
+DESKTOP_PATH = "" 
 
 # ===============================
 # LAB DATA DISPLAY LOGIC
@@ -273,4 +273,5 @@ else:
             else:
                 st.session_state.step += 1
             st.session_state.answered = False
+
             st.rerun()
